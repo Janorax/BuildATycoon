@@ -1,0 +1,14 @@
+while task.wait() do
+local args = {
+    [1] = 99999999999999999999999999999999999999999999999999999999999999999999,
+    [2] = "StarterGui"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("EventuaIly"):WaitForChild("GetMoney"):FireServer(unpack(args))
+wait()
+local args = {
+    [1] = 10000,
+    [2] = true,
+    [3] = "StarterGui"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("EventuaIly"):WaitForChild("Rebirth"):FireServer(unpack(args))
+end
